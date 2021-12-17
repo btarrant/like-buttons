@@ -1,3 +1,9 @@
+/* Root */
+
+h2, h3, button, p {
+    font-family: sans-serif;
+}
+
 /* User Box */
 
 #container {
@@ -5,6 +11,7 @@
     border-color: #000000;
     border-style: solid;
     width: 575px;
+    padding: 30px;
 }
 
 #container button {
@@ -15,4 +22,20 @@
     border-width: 4px;
     width: 87px;
     height: 48px;
+    margin-left: 70px;
+}
+
+#container h3 {
+    display: inline;
+    margin-left: 140px;
+    font-size: 25px;
+}
+
+#container h2 {
+    display: inline;
+    font-size: 30px;
+}
+
+#container p {
+    font-size: 25px;
 }
