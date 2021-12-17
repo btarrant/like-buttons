@@ -1,7 +1,31 @@
 /* Root */
 
-h2, h3, button, p {
+h1, h2, h3, button, p {
     font-family: sans-serif;
+}
+
+/* NavBar */
+
+#nav {
+    background-color: #000000;
+    margin-top: -20px;
+    height: 40px;
+    padding: 25px;
+    width: 820px;
+    margin-left: 185px;
+}
+
+#nav h1 {
+    color: aliceblue;
+    margin-top: 10px;
+    font-weight: 350;
+    letter-spacing: 1.5px;
+}
+
+#feed h1 {
+    font-size: 38px;
+    font-weight: 400;
+    margin-left: 550px;
 }
 
 /* User Box */
