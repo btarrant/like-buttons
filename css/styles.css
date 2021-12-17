@@ -1,6 +1,6 @@
 /* Root */
 
-h1, h2, h3, button, p {
+h1, h2, h3, button, p, a {
     font-family: sans-serif;
 }
 
@@ -28,11 +28,36 @@ h1, h2, h3, button, p {
     margin-left: 550px;
 }
 
+/* Profile Box */
+
+#profilebox img {
+    border-radius: 360px;
+    width: 94px;
+    display: block;
+    margin: 35px;
+    margin-top: 20px;
+    margin-bottom: 28px;
+}
+
+#profilebox {
+    border-style: solid;
+    border-width: 5px;
+    width: 160px;
+}
+
+#profilebox a {
+    margin-left: 32px;
+}
+
+#profilebox h2 {
+    margin-left: 4px;
+    text-align: center;
+}
+
 /* User Box */
 
 #container {
     border-width: 5px;
-    border-color: #000000;
     border-style: solid;
     width: 575px;
     height: 130px;
