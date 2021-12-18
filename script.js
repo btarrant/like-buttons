@@ -1,15 +1,11 @@
-function incrementValue()
-{
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
-}
+var likes = [9, 12, 9];
+var spans = [
+    document.querySelector("#post-1"),
+    document.querySelector("#post-2"),
+    document.querySelector("#post-3")
+];
 
-function incrementValue2()
-{
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
-    value++;
-    document.getElementById('number').value = value;
+function like(id) {
+    likes[id]++;
+    spans[id].innerHTML = likes[id] + "like(s)";
 }

@@ -1,120 +1,84 @@
-/* Root */
-
-h1, h2, h3, button, p, a {
-    font-family: sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.parent { 
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: 1fr; 
-    grid-column-gap: 0px;
-    grid-row-gap: 44px; 
-    }
-    .div1 { grid-area: 1 / 1 / 2 / 2; } 
-    .div2 { grid-area: 1 / 2 / 2 / 3; } 
-    .div3 { grid-area: 3 / 2 / 3 / 3; } 
-    .div4 { grid-area: 2 / 2 / 2 / 3; } 
-
-/* NavBar */
-
-#nav {
-    background-color: #000000;
-    margin-top: -20px;
-    height: 40px;
-    padding: 25px;
-    width: 820px;
-    margin-left: 185px;
+body {
+    font-family: Arial, sans-serif;
 }
 
-#nav h1 {
-    color: aliceblue;
-    margin-top: 10px;
-    font-weight: 350;
-    letter-spacing: 1.5px;
+.container {
+    width: 1000px;
+    margin: 0 auto;
 }
 
-#feed h1 {
-    font-size: 38px;
-    font-weight: 400;
-    margin-left: 550px;
+.top {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
 }
 
-/* Profile Box */
-
-#profilebox img {
-    border-radius: 360px;
-    width: 94px;
-    display: block;
-    margin: 35px;
-    margin-top: 20px;
-    margin-bottom: 28px;
+.centered {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #999;
+    margin-bottom: 40px;
 }
 
-#profilebox {
-    border-style: solid;
-    border-width: 5px;
-    width: 160px;
-    margin-left: 185px;
+.row {
+    display: flex;
 }
 
-#profilebox a {
-    margin-left: 32px;
+.left {
+    flex: 1;
 }
 
-#profilebox h2 {
-    margin-left: 4px;
+.user {
+    padding: 20px;
+    border: 2px solid #999;
     text-align: center;
 }
 
-/* User Box */
-
-#container {
-    border-width: 5px;
-    border-style: solid;
-    width: 575px;
-    height: 130px;
-    padding: 30px;
-    margin-right: 285px;
+.avatar-m {
+    height: 128px;
+    margin: 20px;
 }
 
-#container button {
+.left p {
+    margin: 20px;
+}
+
+.right {
+    flex: 2;
+    margin-left: 30px;
+}
+
+.post {
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 2px solid #999;
+    font-size: 1.2rem;
+}
+
+.top-line {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px
+}
+
+.like-btn {
     background-color: #ffd966;
-    border-style: solid;
-    border-color: #000000;
-    box-shadow: #000000 4px 4px;
-    border-width: 4px;
-    width: 87px;
-    height: 48px;
-    margin-left: 20%;
-    margin-bottom: 20px;
-    font-size: 22px;
+    padding: 5px 10px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    cursor: pointer;
 }
 
-#container input {
-    border: none;
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: 600;
-    margin-left: 100px;
-    width: 27px;
-}
-
-#container h3 {
-    display: inline;
-    margin-left: -1px;
-    font-size: 25px;
-}
-
-#container h2 {
-    display: inline;
-    font-size: 30px;
-}
-
-#container p {
-    font-size: 25px;
-}
-
-#container a {
-    font-size: 25px;
+.user img {
+    border-radius: 360px;
 }
