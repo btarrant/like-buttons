@@ -11,11 +11,40 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="profilebox" >
-        <img src="myphoto.jpg" alt="Work photo of Brandon Tarrant">
-        <a href="#">Add an avatar</a>
-        <h2>Brandon Tarrant</h2>
+    <div id="nav">
+        <h1>Network</h1>
     </div>
+    <div id="feed" >
+        <h1>Your Feed</h1>
+    </div>
+    <div class="parent"> 
+        <div id="profilebox" class="div1">
+            <img src="myphoto.jpg" alt="Work photo of Brandon Tarrant">
+            <a href="#">Add an avatar</a>
+            <h2>Brandon Tarrant</h2>
+        </div>
+        <div id="container" class="div2">
+            <h2>Neil M</h2>
+            <input type="text" id="number" value="0"/>
+            <h3>like(s)</h3>
+            <button onclick="incrementValue()" value="Increment Value">Like</button>
+            <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+        </div>
+        <div id="container" class="div3">
+            <h2>Nichole K</h2>
+            <input type="text" id="number" value="0"/>
+            <h3>like(s)</h3>
+            <button onclick="incrementValue()" value="Increment Value">Like</button>
+            <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+        </div>
+        <div id="container" class="div4">
+            <h2>Jim R</h2>
+            <input type="text" id="number" value="0"/>
+            <h3>like(s)</h3>
+            <button onclick="incrementValue2()" value="Increment Value">Like</button>
+            <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+        </div>
+    </div>  
     <script src="script.js"></script>
 </body>
 </html>
